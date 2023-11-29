@@ -1,0 +1,41 @@
+/* Catalogue.css */
+.Catalogue {
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.h1{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.catalogue-container {
+    text-align: center;
+    
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    background-color: aqua;
+  }
+  
+  .book {
+    margin: 100px;
+  }
+  
+  
+  
+  .book p {
+    margin-top: 10px;
+  }
+  .label{
+    padding: 100px;
+    background-color: antiquewhite;
+  }
+  

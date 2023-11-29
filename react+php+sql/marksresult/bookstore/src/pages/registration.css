@@ -1,0 +1,43 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.Registration {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.form-select,
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.submit {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

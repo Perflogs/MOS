@@ -120,3 +120,66 @@
     </div>
 </body>
 </html>
+
+
+
+
+<!---- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Chessboard</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .chessboard {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-gap: 2px;
+            width: 80vmin;
+            max-width: 400px;
+        }
+
+        .square {
+            width: 100%;
+            padding-bottom: 100%;
+            background-color: #eee;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.8em;
+        }
+
+        .dark {
+            background-color: #769656;
+        }
+    </style>
+</head>
+<body>
+
+<div class="chessboard" id="chessboard"></div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const chessboard = document.getElementById('chessboard');
+        const squares = 64;
+
+        for (let i = 0; i < squares; i++) {
+            const square = document.createElement('div');
+            square.classList.add('square', i % 2 === 0 ? 'dark' : '');
+            square.textContent = i + 1;
+            chessboard.appendChild(square);
+        }
+    });
+</script>
+
+</body>
+</html>
+!---->
